@@ -25,7 +25,7 @@
     "environment": [
       "PUID=0",
       "PGID=0",
-      "TZ=America/New_York"
+      "TZ=America/Chicago"
     ],
     "ports": [
       "8080:8080",
@@ -54,7 +54,7 @@
     "environment": [
       "PUID=0",
       "PGID=0",
-      "TZ=America/New_York"
+      "TZ=America/Chicago"
     ],
     "links": [
       "sabnzbd",
@@ -79,7 +79,7 @@
       "8081:8081"
     ],
     "environment": [
-      "TZ=America/New_York"
+      "TZ=America/Chicago"
     ],
     "extra_hosts": [
       "0.0.0.0:localhost"
@@ -107,7 +107,7 @@
     "environment": [
       "PUID=0",
       "PGID=0",
-      "TZ=America/New_York"
+      "TZ=America/Chicago"
     ],
     "extra_hosts": [
       "0.0.0.0:localhost"
@@ -135,7 +135,7 @@
     "environment": [
       "PUID=0",
       "PGID=0",
-      "TZ=America/New_York"
+      "TZ=America/Chicago"
     ],
     "extra_hosts": [
       "0.0.0.0:localhost"
@@ -159,19 +159,19 @@
       "VERSION=plexpass",
       "PGID=0",
       "PUID=0",
-      "TZ=America/New_York"
+      "TZ=America/Chicago"
     ],
     "restart": "always",
     "net": "host"
   },
   "plexpy": {
-    "image": "linuxserver/plexpy",
+    "image": "linuxserver/tautulli",
     "volumes_from": [
       "shares"
     ],
     "volumes": [
       "./configs/plex/Library/Application Support/Plex Media Server/Logs:/logs:ro",
-      "./configs/plexpy:/config"
+      "./configs/tautulli:/config"
     ],
     "ports": [
       "8181:8181"
@@ -179,7 +179,7 @@
     "environment": [
       "PGID=0",
       "PUID=0",
-      "TZ=America/New_York"
+      "TZ=America/Chicago"
     ],
     "restart": "always"
   },
@@ -209,7 +209,7 @@
       "TRANSMISSION_DOWNLOAD_QUEUE_SIZE=50",
       "TRANSMISSION_DOWNLOAD_QUEUE_ENABLED=true",
       "TRANSMISSION_UPLOAD_SLOTS_PER_TORRENT=1",
-      "TZ=America/New_York"
+      "TZ=America/Chicago"
     ],
     "extra_hosts": [
       "0.0.0.0:localhost"
