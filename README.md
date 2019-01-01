@@ -6,7 +6,7 @@ A collection of services that stands up all your media automation needs with Doc
 ## What's in the box?!
 * <img src='https://www.google.com/s2/favicons?domain=sabnzbd.org' height='16' width='16' /> [Sabnzbd](http://sabnzbd.org) (usenet download manager)
 * <img src='https://www.google.com/s2/favicons?domain=sickbeard.com' height='16' width='16' /> [Sickbeard](http://sickbeard.com) (tv search & download manager)
-* <img src='https://www.google.com/s2/favicons?domain=sonarr.tv' height='16' width='16' /> [Sonarr](https://sonarr.tv/) (tv search & download manager)
+* <img src='https://www.google.com/s2/favicons?domain=radarr.video' height='16' width='16' /> [Radarr](https://radarr.video/) (tv search & download manager)
 * <img src='https://www.google.com/s2/favicons?domain=couchpota.to' height='16' width='16' /> [CouchPotato](https://couchpota.to) (movie search & download manager)
 * <img src='https://www.google.com/s2/favicons?domain=transmissionbt.com' height='16' width='16' /> [Transmission](https://transmissionbt.com) (torrent download manager)
 * <img src='https://www.google.com/s2/favicons?domain=tautulli.com' height='16' width='16' /> [Tautulli](https://tautulli.com/) (Plex analytics)
@@ -43,7 +43,7 @@ Once the install finishes open your navigate to the following:
 
 * <img src='https://www.google.com/s2/favicons?domain=sabnzbd.org' height='16' width='16' /> [http://ultimate.media.server:8080](http://ultimate.media.server:8080) // Sabnzbd
 * <img src='https://www.google.com/s2/favicons?domain=sickbeard.com' height='16' width='16' /> [http://ultimate.media.server:8081](http://ultimate.media.server:8081) // Sickbeard
-* <img src='https://www.google.com/s2/favicons?domain=sonarr.tv' height='16' width='16' /> [http://ultimate.media.server:8989](http://ultimate.media.server:8989) // Sonarr
+* <img src='https://www.google.com/s2/favicons?domain=radarr.video' height='16' width='16' /> [http://ultimate.media.server:8989](http://ultimate.media.server:8989) // Radarr
 * <img src='https://www.google.com/s2/favicons?domain=couchpota.to' height='16' width='16' /> [http://ultimate.media.server:5050](http://ultimate.media.server:5050) // CouchPotato
 * <img src='https://www.google.com/s2/favicons?domain=couchpota.to' height='16' width='16' /> [http://ultimate.media.server:5051](http://ultimate.media.server:5051) // CouchPotato (for prereleases)
 * <img src='https://www.google.com/s2/favicons?domain=transmissionbt.com' height='16' width='16' /> [http://ultimate.media.server:8091](http://ultimate.media.server:8091) // Transmission
@@ -62,7 +62,7 @@ Once the install finishes open your navigate to the following:
 Special thanks to the maintainers of the following docker containers:
 * [linuxserver/plex](https://hub.docker.com/r/linuxserver/plex)
 * [linuxserver/tautulli](https://hub.docker.com/r/linuxserver/tautulli)
-* [linuxserver/sonarr](https://hub.docker.com/r/linuxserver/sonarr)
+* [linuxserver/radarr](https://hub.docker.com/r/linuxserver/radarr)
 * [linuxserver/sabnzbd](https://hub.docker.com/r/linuxserver/sabnzbd)
 * [linuxserver/couchpotato](https://hub.docker.com/r/linuxserver/couchpotato)
 * [timhaak/sickbeard](https://hub.docker.com/r/timhaak/sickbeard)
