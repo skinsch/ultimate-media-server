@@ -24,7 +24,7 @@ A collection of services that stands up all your media automation needs with Doc
   * Your temp directory is located at `./temp`
 * This guide assumes you have a hosts file mapping `ultimate.media.server` to `127.0.0.1`.
 
-### To setup
+### To setup (NPM is Node Package Manager for Node.js)
 * `npm install`
 
 ### To start
