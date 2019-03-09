@@ -3,13 +3,32 @@
 # ultimate-media-server
 A collection of services that stands up all your media automation needs with Docker containers.
 
+This example will be using a Qnap TS-251+ as a media harvesting machine!
+
+I much prefer having the control over the persistent volume space for backups, as opposed to having to dig through the NAS internal volumes. Also it's what I am used to so easy to do. There is a bit of a learning curve with docker but once you understand how it all works it's straight forward and universal.
+
+It's not ideal to run a torrent client without a VPN, so qtransmission is out. Containers allow to only run the services you want anonymity for through a VPN (deluge-vpn), whilst also providing a proxy for tunneling other services through (privoxy).
+
+There are people out there who have pulled together docker compose files, but I'd prefer to spin up individual containers.
+
+Beyond radarr, sonarr and a download client:
+
+* Tautulli for monitoring Plex
+* Ombi for automating sharing of your server w requests
+* Jacket or Cardigan for better torrent support
+* SABnzb or NZBGet for Usenet downloading
+* Organizr to pull it all together and save your browser from tab overload
+* <img src='https://www.google.com/s2/favicons?domain=sonarr.tv' height='16' width'16' /> [Sonarr](http://sonarr.tv)  - It supports NZBGet, Sabnzbd and even torrent - https://github.com/linuxserver/docker-sonarr
+* Radarr - to do all heavy listing finding releases, sending to downloader then renaming and moving files when download completes
+In Summary - You need sonarr and radarr. They do all the heavy lifting of finding releases, sending to downloader and then renaming and moving files when downloaded.
+
 ## What's in the box?!
 * <img src='https://www.google.com/s2/favicons?domain=sabnzbd.org' height='16' width='16' /> [Sabnzbd](http://sabnzbd.org) (usenet download manager)
 * <img src='https://www.google.com/s2/favicons?domain=sickbeard.com' height='16' width='16' /> [Sickbeard](http://sickbeard.com) (tv search & download manager)
 * <img src='https://www.google.com/s2/favicons?domain=radarr.video' height='16' width='16' /> [Radarr](https://radarr.video/) (tv search & download manager)
 * <img src='https://www.google.com/s2/favicons?domain=couchpota.to' height='16' width='16' /> [CouchPotato](https://couchpota.to) (movie search & download manager)
 * <img src='https://www.google.com/s2/favicons?domain=transmissionbt.com' height='16' width='16' /> [Transmission](https://transmissionbt.com) (torrent download manager)
-* <img src='https://www.google.com/s2/favicons?domain=tautulli.com' height='16' width='16' /> [Tautulli](https://tautulli.com/) (Plex analytics)
+* <img src='https://www.google.com/s2/favicons?domain=tautulli.com' height='16' width='16' /> [Tautulli](https://tautulli.com/) (Plex analytics and monitoring Plex)
 * <img src='https://www.google.com/s2/favicons?domain=plex.tv' height='16' width='16' /> [Plex Media Server (plexpass)](https://plex.tv) (tv & movie organizer and sharing)
 
 ## Getting Started
