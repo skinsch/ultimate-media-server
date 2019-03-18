@@ -19,6 +19,13 @@ Beyond radarr, sonarr and a download client:
 
 * SABnzb or NZBGet for Usenet downloading
 
+QNAP Has created a Data share area under: /share/CACHEDEV1_DATA and we place everything under "media".
+For Reference:
+
+/share/CACHEDEV1_DATA/media/movies
+/share/CACHEDEV1_DATA/media/tv
+/share/CACHEDEV1_DATA/media/music
+
 ## 
 * <img src='https://www.google.com/s2/favicons?domain=tautulli.com' height='16' width='16' /> [Tautulli](https://tautulli.com/) - Tautulli is the best application to monitor your Plex server.  [Docker Hub for Tautulli](https://hub.docker.com/r/linuxserver/tautulli/)
 
