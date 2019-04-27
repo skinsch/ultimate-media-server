@@ -27,7 +27,17 @@ For Reference:
 /share/CACHEDEV1_DATA/media/tv
 /share/CACHEDEV1_DATA/media/music
 ```
-## 
+
+### ARCH-RTORRENTVPN
+Has containing core services:
+* rTorrent-ps (cli for torrent client)
+* ruTorrent (front-end for rtorrent client)
+* autodl-irssi (a plugin for irssi that monitors IRC announce channels and downloads torrent files)
+* Flood (modern web ui for rtorrent)
+* OpenVPN (vpn)
+* Privoxy (proxy)
+
+###
 * <img src='https://www.google.com/s2/favicons?domain=tautulli.com' height='16' width='16' /> [Tautulli](https://tautulli.com/) - Tautulli is the best application to monitor your Plex server.  [Docker Hub for Tautulli](https://hub.docker.com/r/linuxserver/tautulli/)
 
 * <img src='https://www.google.com/s2/favicons?domain=ombi.io' height='16' width='16' /> [Ombi](https://ombi.io/) - gives your shared Plex users the ability to request content by themselves! Ombi can be linked to multiple TV Show and Movie DVR tools to create a seamless end-to-end experience for your users.  [Docker Hub for Ombi](https://hub.docker.com/r/linuxserver/ombi/)
